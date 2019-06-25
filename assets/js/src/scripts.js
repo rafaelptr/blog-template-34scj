@@ -13,8 +13,8 @@ class Init {
 
     start() {
         // const regex = URL == "/(.*?)\/index.html/gm";
-        const regexIndex = location.pathname.match(/(.*?)\/index.html/) ? true : false;
-        const regexPost = location.pathname.match(/(.*?)\/post.html/) ? true : false;
+        const regexIndex = location.pathname.match(/(.*?)\/index\.html/) ? true : false;
+        const regexPost = location.pathname.match(/(.*?)\/post\.html/) ? true : false;
         // console.log("pathname before regex", URL.pathname);
         if (regexIndex) {
             // console.log("index page");
